@@ -8,7 +8,7 @@ hasCJKLanguage = true
 
 [params]
 	name = "EQuimper's Blog"
-	description = "Blog Description"
+	description = "Talk about coding and everything about programming."
 	bio = "Programmer - Youtuber - Blogger - Mentor"
 	# Enter optionally your twitter account
 	twitter = "QuimperEmanuel"
