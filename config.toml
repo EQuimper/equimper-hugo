@@ -11,7 +11,8 @@ hasCJKLanguage = true
 	description = "Talk about coding and everything about programming."
 	bio = "Programmer - Youtuber - Blogger - Mentor"
 	# Enter optionally your twitter account
-	twitter = "QuimperEmanuel"
+	twitter = "@QuimperEmanuel"
+	fbadmins = "1810930315896635"
 	enableRSS = false
 
 	# Disqus comment

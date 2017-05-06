@@ -1,6 +1,6 @@
 ---
 author: "Emanuel Quimper"
-date: 2017-05-03T11:15:58-04:00
+date: 2017-05-03T11:15:58-05:00
 linktitle: What I found by building my own NodeJS boilerplate.
 title: What I found by building my own NodeJS boilerplate.
 description: By building your own boilerplate or at least play with code for fun you can found some new stuff and use it for your next project.
