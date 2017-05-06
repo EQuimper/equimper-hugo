@@ -4,10 +4,19 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="{{ .Title }}">
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
-		<meta name="twitter:card" content="summary">
+		<meta property="og:url" content="{{ .URL }}">
+		<meta property="og:description" content="{{ .Description }}">
+		<meta property="og:site_name" content="{{ .Site.Title }}">
+		<meta name="twitter:card" content="{{ .Summary }}">
 		<meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
+		<meta name="twitter:title" content="{{ .Title }}">
+		<meta name="twitter:description" content="{{ .Description }}">
+		<meta name="twitter:url" content="{{ .URL }}">
+		<meta name="twitter:domain" content="{{ . }}" />
+		<meta name="twitter:creator" content="@QuimperEmanuel" />
 		{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 		{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 		<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
