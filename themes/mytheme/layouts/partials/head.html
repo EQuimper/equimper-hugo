@@ -14,7 +14,7 @@
 		<meta property="og:title" content="{{ .Title }}">
 		<meta property="og:type" content="article">
 		<meta property="og:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
-		<meta property="og:url" content="{{ .URL }}">
+		<meta property="og:url" content="{{ .Permalink }}">
 		<meta property="og:description" content="{{ .Description }}">
 		<meta property="og:site_name" content="{{ .Site.Title }}">
 		<meta property="article:published_time" content="{{ .Date }}">
@@ -28,7 +28,7 @@
 		<meta name="twitter:title" content="{{ .Title }}">
 		<meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
 		<meta name="twitter:description" content="{{ .Description }}">
-		<meta name="twitter:url" content="{{ .URL }}">
+		<meta name="twitter:url" content="{{ .Permalink }}">
 		<meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
 
 		{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}

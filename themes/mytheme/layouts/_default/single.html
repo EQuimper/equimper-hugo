@@ -33,6 +33,14 @@
                 <section id="post-body">
                     {{ .Content }}
                 </section>
+                <hr>
+                <section>
+                    {{ partial "tweet.html" . }}
+                </section>
+                <hr>
+                <section>
+                    {{ partial "mail-chimp.html" . }}
+                </section>
             </article>
 
             {{ if .Site.Params.enableGithubIssuesTips }}
@@ -41,10 +49,6 @@
 
             {{ if .Site.Params.enableDisqus }}
                 {{ partial "disqus.html" . }}
-            {{ end }}
-
-            {{ if .Site.Params.enableDuoshuo }}
-                {{ partial "duoshuo.html" . }}
             {{ end }}
 
             {{ partial "footer.html" . }}
